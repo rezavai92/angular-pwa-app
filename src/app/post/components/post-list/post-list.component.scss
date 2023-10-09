@@ -1,0 +1,17 @@
+.post-list-container {
+  scroll-padding: 32px;
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  height: 100%;
+
+  div {
+    max-width: 350px;
+    margin-right: 8px;
+    //  align-self: stretch;
+    margin-bottom: 8px;
+  }
+}
